@@ -9,6 +9,11 @@ public class Main {
 
         System.out.println(sum(a,b,c));
 
+        Coche miCoche= new Coche();
+        miCoche.addPuertas();
+        System.out.println("Mi coche tiene "+ miCoche.getPuertas() + " puertas");
+
+
     }
     public static int sum(int a, int b, int c){
         int res=0;
